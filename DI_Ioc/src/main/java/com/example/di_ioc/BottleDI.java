@@ -13,7 +13,7 @@ interface ShapeInterface {
 class RectangleImpl implements ShapeInterface {
     @Override
     public void printShape() {
-        System.out.println("Rectange");
+        System.out.println("Rectangle");
     }
 }
 
