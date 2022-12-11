@@ -49,6 +49,8 @@ class Main {
         ShapeInterface rectangle = new RectangleImpl();
 //        ColorInterface color = new Red();
 //        MaterialInterface material = new Plastic();
+
+        // Inversion of Control
         /**
          * Dependency Injection giúp chúng ta dễ dàng mở rộng code và giảm sự phụ thuộc giữa các dependency với nhau.
          * Tuy nhiên, lúc này, khi code bạn sẽ phải kiêm thêm nhiệm vụ Inject dependency (tiêm sự phụ thuộc).
